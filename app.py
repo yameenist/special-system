@@ -134,3 +134,7 @@ password_length = st.number_input("Choose password length:", min_value=8, max_va
 if st.button("Generate Strong Password"):
     strong_password = generate_strong_password(password_length)
     st.success(f"Suggested Strong Password: **{strong_password}**")
+
+# ✅ Footer
+st.markdown("<hr style='border: 1px solid #ddd;'>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 14px; color: #555;'>🚀 This application is created by <b>Muhammad Yameen Saleem</b></p>", unsafe_allow_html=True)
